@@ -1,24 +1,7 @@
 - type: construction
-  id: SolidSecretDoor
-  name: solid secret door
-  graph: SecretDoor
-  startNode: start
-  targetNode: solidSecretDoor
-  category: construction-category-structures
-  description: A secret door for the wall.
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  icon:
-    sprite: Structures/Doors/secret_door.rsi
-    state: closed
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
   id: ReinforcedSecretDoor
   name: reinforced secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: reinforcedSecretDoor
   category: construction-category-structures
@@ -27,7 +10,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/reinforced_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/reinforced_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -35,7 +18,7 @@
 - type: construction
   id: WoodSecretDoor
   name: wood secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: woodSecretDoor
   category: construction-category-structures
@@ -44,7 +27,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/wood_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/wood_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -52,16 +35,16 @@
 - type: construction
   id: GoldSecretDoor
   name: gold secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
-  targetNode: solidSecretDoor
+  targetNode: goldSecretDoor
   category: construction-category-structures
   description: A secret door for the wall.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/gold_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/gold_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -69,7 +52,7 @@
 - type: construction
   id: SilverSecretDoor
   name: silver secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: silverSecretDoor
   category: construction-category-structures
@@ -78,7 +61,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/silver_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/silver_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -86,7 +69,7 @@
 - type: construction
   id: BrassSecretDoor
   name: brass secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: brassSecretDoor
   category: construction-category-structures
@@ -95,7 +78,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/brass_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/brass_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -103,7 +86,7 @@
 - type: construction
   id: ShuttleInteriorSecretDoor
   name: shuttle secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: shuttleInteriorSecretDoor
   category: construction-category-structures
@@ -112,7 +95,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/shuttle_interior_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/shuttle_interior_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
@@ -120,7 +103,7 @@
 - type: construction
   id: ShuttleSecretDoor
   name: shuttle secret door
-  graph: SecretDoor
+  graph: MoreSecretDoors
   startNode: start
   targetNode: shuttleSecretDoor
   category: construction-category-structures
@@ -129,7 +112,7 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Doors/SecretDoors/shuttle_secret_door.rsi
+    sprite: _DeadSpace/Structures/Doors/SecretDoors/shuttle_secret_door.rsi
     state: closed
   conditions:
     - !type:TileNotBlocked
