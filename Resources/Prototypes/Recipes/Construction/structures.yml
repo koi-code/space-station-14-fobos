@@ -1770,8 +1770,8 @@
     - !type:TileNotBlocked
 
 - type: construction
-  id: SolidSecretDoor
   name: solid secret door
+  id: SolidSecretDoor
   graph: SecretDoor
   startNode: start
   targetNode: solidSecretDoor
